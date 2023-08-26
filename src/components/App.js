@@ -4,8 +4,8 @@ import './../styles/App.css';
 
 const App = () => {
 
-  let [data1,setData1] = useState("")
-  let [data2,setData2] = useState("")
+  let [data1,setData1] = useState("Tab 1")
+  let [data2,setData2] = useState("Tab A")
 
   function getData1(e){
     setData1(e.target.getAttribute('value'))
